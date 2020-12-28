@@ -12,7 +12,7 @@
     </a>
 </p>
 
-<p align="center">Development of a Smartphone using Vanilla HTML</p>
+<p align="center">Development of a Smartphone using Vanilla HTML/JS</p>
 
 <p align="center">
     <img src="smartphone.png">
