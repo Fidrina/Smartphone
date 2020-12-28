@@ -22,7 +22,7 @@
     justify-content: space-between;
 }
 
-.phone span {
+.phone header span {
     font-family: 'Langar', cursive;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .bg-green-lime {
-    background-color: #AEf359;
+    background-color: #DCF8C6;
 }
 
 .bg-white {
