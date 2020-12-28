@@ -3,6 +3,7 @@
 @import 'mr.css';
 @import 'w.css';
 @import 'h.css';
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 :root {
     --border-radius: 5vh;
 }
@@ -21,35 +22,33 @@
     justify-content: space-between;
 }
 
-.phone>header {
+.phone span {
+    font-family: 'Langar', cursive;
+}
+
+.phone-border {
+    height: 100%;
+    width: 97%;
+    border-radius: 4vh;
+    border: 5px solid #8a8686;
+}
+
+.phone-border>header {
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
-    height: 15%;
-}
-
-.phone>main {
-    background-color: #FFFFFF;
-    border: 2px solid #F3F3F3;
-    margin-right: 5%;
-    margin-left: 5%;
-    height: 70%;
-}
-
-.phone>main>header {
     height: 5%;
 }
 
-.phone>main>header div {
+.border-bottom {
     border-bottom: 1px solid #F3F3F3;
 }
 
-.phone>footer {
+.phone-border>footer {
     border-bottom-left-radius: var(--border-radius);
     border-bottom-right-radius: var(--border-radius);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15%;
 }
 
 .justify-content-between {
@@ -74,22 +73,6 @@
     height: 10px;
 }
 
-.gray-circle-2 {
-    background-color: #F3F3F3;
-    border-radius: 2px;
-    width: 4px;
-    height: 4px;
-}
-
-.audio {
-    background-color: #F3F3F3;
-    border-color: gray;
-    border-radius: 2px;
-    width: 40px;
-    height: 10px;
-    border-radius: 5px;
-}
-
 .outer-circle {
     width: 50px;
     height: 50px;
@@ -102,4 +85,20 @@
     height: 40px;
     border-radius: 50%;
     background-color: #FFFFFF;
+}
+
+.bg-green {
+    background-color: #32612D;
+}
+
+.bg-white-smoke {
+    background-color: #F3F3F3;
+}
+
+.bg-light-orange {
+    background-color: #ECE5DD;
+}
+
+.text-white {
+    color: #FFFFFF;
 }
