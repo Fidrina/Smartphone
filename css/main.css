@@ -1,0 +1,152 @@
+:root {
+    --border-radius: 5vh;
+}
+
+.kiev-trip-bg {
+    background-color: #FFFFFF;
+    border: 5px solid #F3F3F3;
+}
+
+.phone {
+    height: 75vh;
+    width: 20vw;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.phone>header {
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    height: 15%;
+}
+
+.phone>main {
+    background-color: #FFFFFF;
+    border: 2px solid #F3F3F3;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 65%;
+}
+
+.phone>footer {
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+.justify-content-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.gray-circle-5 {
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+}
+
+.gray-circle-2 {
+    background-color: #F3F3F3;
+    border-radius: 2px;
+    width: 4px;
+    height: 4px;
+}
+
+.audio {
+    background-color: #F3F3F3;
+    border-color: gray;
+    border-radius: 2px;
+    width: 40px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.mt-5 {
+    margin-top: 5%;
+}
+
+.mt-10 {
+    margin-top: 10%;
+}
+
+.mt-15 {
+    margin-top: 15%;
+}
+
+.mt-20 {
+    margin-top: 20%;
+}
+
+.ml-5 {
+    margin-left: 5%;
+}
+
+.ml-10 {
+    margin-left: 10%;
+}
+
+.ml-15 {
+    margin-left: 15%;
+}
+
+.ml-20 {
+    margin-left: 20%;
+}
+
+.mr-1 {
+    margin-right: 1%;
+}
+
+.mr-2 {
+    margin-right: 2%;
+}
+
+.mr-5 {
+    margin-right: 5%;
+}
+
+.mr-10 {
+    margin-right: 10%;
+}
+
+.mr-15 {
+    margin-right: 15%;
+}
+
+.mr-20 {
+    margin-right: 20%;
+}
+
+.outer-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #F3F3F3;
+}
+
+.inner-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
