@@ -1,3 +1,19 @@
+.mt-1 {
+    margin-top: 1%;
+}
+
+.mt-2 {
+    margin-top: 2%;
+}
+
+.mt-3 {
+    margin-top: 3%;
+}
+
+.mt-4 {
+    margin-top: 4%;
+}
+
 .mt-5 {
     margin-top: 5%;
 }
@@ -36,4 +52,44 @@
 
 .mt-50 {
     margin-top: 50%;
+}
+
+.mt-55 {
+    margin-top: 55%;
+}
+
+.mt-60 {
+    margin-top: 60%;
+}
+
+.mt-65 {
+    margin-top: 65%;
+}
+
+.mt-70 {
+    margin-top: 70%;
+}
+
+.mt-75 {
+    margin-top: 75%;
+}
+
+.mt-80 {
+    margin-top: 80%;
+}
+
+.mt-85 {
+    margin-top: 85%;
+}
+
+.mt-90 {
+    margin-top: 90%;
+}
+
+.mt-95 {
+    margin-top: 95%;
+}
+
+.mt-100 {
+    margin-top: 100%;
 }
